@@ -114,7 +114,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="single-classes">
-                        <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/imas.jpeg')}}" alt="" width="500px">
+                        <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/jk.jpg')}}" alt="" width="500px">
                         <h3>Gizi Untuk Bayi</h3>
                         <p>Nutrisi untuk bayi dimulai dengan ASI (air susu ibu), yang khusus dibuat untuk bayi Anda. </p>
                      <a href="./blog" class="primary-btn blog-btn">Lihat Blog</a>
@@ -258,11 +258,8 @@
                             <a href="./home.html" class="logo"><img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/image.png')}}" alt="" width="120px"></a>
                             <p>Aenean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti. Donec congue vel justo eget malesuada. “True meditation is about being fully present with everything that is–including.</p>
                             <ul>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                <li><a href="https://www.instagram.com/sephiyanisyaa/"><i class="fa fa-instagram"></i> Sephiyanisyaa</a></li>
+
                             </ul>
                             <div class="copyright text-white">
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
