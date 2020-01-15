@@ -41,12 +41,10 @@
                         </div>
                         <nav class="inner-main-navbar mobile-menu">
                             <ul>
-                                <li><a href="./index">Home</a></li>
-                                <li><a href="./classes.html">Classes</a></li>
-                                <li><a href="./about-us.html">About us</a></li>
-                                <li><a href="./elements.html">Shop</a></li>
-                                <li><a href="./blog">Blog</a></li>
-                                <li><a href="./contact.html">Contact</a></li>
+                                <li><a href="./index"><i class="fa fa-home"></i>Home</a></li>
+                                 <li><a href="./tanya"><i class="fa fa-comments"></i>Forum</a></li>
+                                 <li><a href="./about"><i class="fa fa-clock-o"></i>About Us</a></li>
+                                <li><a href="./contact.html"><i class="fa fa-envelope-o"></i>Contact</a></li>
                             </ul>
                         </nav>
                         <div id="mobile-menu-wrap"></div>
@@ -107,13 +105,30 @@
                                 <p>Ibu hamil yang sering mengalami stress berat dapat mengakibatkan kondisi serius seperti lahir prematur serta berat badan bayi ringan. Keguguran juga dapat terjadi apabila kondisi stress yang dialami terus menerus. </p>
                             </div>
                         </div>
-
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog-rt">
+                        <div class="search-form">
+                            <form action="#">
+                                <input type="text">
+                                <input type="submit" value="Search">
+                            </form>
+                        </div>
+                            <div class="categories-list">
+                            <h5>Categories</h5>
+                            <ul>
+                               <li><a href="./blogg"><i class="fa fa-genderless"></i> makanan sehat untuk ibu Hamil </a></li>
+                              <li><a href="./blogg"><i class="fa fa-genderless"></i> NUTRISI IBU HAMIL</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Blog Section End -->
+
+
     <!-- Footer Section Begin -->
     <footer class="footer-section set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/footer-bg.jpg')}}">
         <div class="container">

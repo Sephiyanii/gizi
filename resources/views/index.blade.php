@@ -36,10 +36,10 @@
                     <div class="main-menu">
                         <nav class="inner-main-navbar mobile-menu">
                             <ul>
-                                <li><a href="./index">Home</a></li>
-                                <li><a href="./blog">Blog</a></li>
-                                <li><a href="./about-us.html">About us</a></li>
-                                <li><a href="./contact.html">Contact</a></li>
+                               <li><a href="./blogg"><i class="fa fa-home">Home</i></a></li>
+                                <li><a href="./tanya"><i class="fa fa-comments"></i>Forum</a></li>
+                                <li><a href="./about"><i class="fa fa-clock-o"></i>About Us</a></li>
+                                <li><a href="./contact.html"><i class="fa fa-envelope-o"></i>Contact</a></li>
                             </ul>
                         </nav>
                         <div id="mobile-menu-wrap"></div>
@@ -85,7 +85,7 @@
     <!-- Hero Slider Section End -->
 
     <!-- Yoga Classes Section Begin -->
-    <section class="yoga-classes-section spad">
+    <footer class="footer-section set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/yoga-bg.jpg')}}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
@@ -99,119 +99,45 @@
                 <div class="col-md-4">
                     <div class="single-classes">
                          <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/kk.jpg')}}" alt="">
-                        <h3>Menjaga Kesehatan Kandungan</h3>
-                        <p>Memiliki seorang anak merupakan dambaan bagi pasangan suami istri pada umumnya. Bagi para wanita yang sedang hamil, akan lebih baik apabila selalu mengetahui perkembangan calon buah hati Anda.</p>
+                        <strong>Pakar Gizi Ibu Hamil</strong>
                    <a href="./blog" class="primary-btn blog-btn">Lihat Blog</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="single-classes">
-                        <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/images.jpeg')}}" alt="" width="500px">
-                        <h3> makanan sehat untuk ibu Hamil </h3>
-                        <p>Pola makan saat hamil merupakan hal yang harus diperhatikan untuk menjaga kesehatan ibu dan bayi. </p>
+                        <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/img.jpg')}}" alt="">
+                        <strong>Pakar Gizi Ibu Menyusui</strong>
                                        <a href="./blogg" class="primary-btn blog-btn">Lihat Blog</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="single-classes">
-                        <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/jk.jpg')}}" alt="" width="500px">
-                        <h3>Gizi Untuk Bayi</h3>
-                        <p>Nutrisi untuk bayi dimulai dengan ASI (air susu ibu), yang khusus dibuat untuk bayi Anda. </p>
-                     <a href="./blog" class="primary-btn blog-btn">Lihat Blog</a>
+                        <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/jk.jpg')}}" alt="">
+                        <strong>Pakar Gizi Bayi</strong><br>
+                                     <a href="./blog" class="primary-btn blog-btn">Lihat Blog</a>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Yoga Classes Section End -->
 
-    <!-- Yoga Name Section Begin -->
-    <section class="different-yoga set-bg spad" data-setbg="{{ asset ('assets/frontend/yogastudio/img/yoga-bg.jpg')}}">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="home-title">
-                        <span>Your inner Chi</span>
-                        <h2>&#34;True meditation is about being fully present with everything that is–including discomfort and challenges. It is not an escape from life.&#34;
-                        </h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="yoga-name-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <div class="single-yoga-name">
-                        <div class="yoga-pic">
-                            <img src="{{ asset('assets/frontend/yogastudio/img/yoga-1.jpg')}}" alt="">
-                        </div>
-                        <div class="yoga-text">
-                            <span>Your inner Chi</span>
-                            <h4>Aenean quis velit lacinia <br/>pulvinar.</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="single-yoga-name">
-                        <div class="yoga-pic">
-                            <img src="img/yoga-2.jpg" alt="">
-                        </div>
-                        <div class="yoga-text">
-                            <span>Your inner Chi</span>
-                            <h4>Velit pulvinar, pelle <br/>neque .</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="single-yoga-name">
-                        <div class="yoga-pic">
-                            <img src="img/yoga-3.jpg" alt="">
-                        </div>
-                        <div class="yoga-text">
-                            <span>Your inner Chi</span>
-                            <h4>Quis velit pulvinar, pellen <br/>tesque.</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Yoga Name Section End -->
-
     <!-- Client Section Begin -->
     <section class="client-section spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <div class="client-left-img">
-                        <img src="{{ asset ('assets/frontend/yogastudio/img/hero-slider/img.jpg')}}" alt="">
+                    {{-- <div class="client-left-img">
+                        <img src="{{ asset ('assets/frontend/yogastudio/img/hero-slider/banner.jpg')}}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 offset-lg-1">
                     <div class="client-says">
                         <div class="section-title">
                             <span>Your inner Chi</span>
-                            <h2>What our clients say</h2>
-                        </div>
-                        <div class="client-items owl-carousel">
-                            <div class="single-client-item">
-                                <p>Aenean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti. Donec congue vel justo eget malesuada. “True meditation is about being fully present with everything that is–including discomfort and challenges. It is not an escape from life.</p>
-                                <h5>Mark Smith, <span>Client</span></h5>
-                            </div>
-                            <div class="single-client-item">
-                                <p>Aenean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti. Donec congue vel justo eget malesuada. “True meditation is about being fully present with everything that is–including discomfort and challenges. It is not an escape from life.</p>
-                                <h5>Mark Smith, <span>Client</span></h5>
-                            </div>
-                            <div class="single-client-item">
-                                <p>Aenean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti. Donec congue vel justo eget malesuada. “True meditation is about being fully present with everything that is–including discomfort and challenges. It is not an escape from life.</p>
-                                <h5>Mark Smith, <span>Client</span></h5>
-                            </div>
-                            <div class="single-client-item">
-                                <p>Aenean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti. Donec congue vel justo eget malesuada. “True meditation is about being fully present with everything that is–including discomfort and challenges. It is not an escape from life.</p>
-                                <h5>Mark Smith, <span>Client</span></h5>
-                            </div>
+                             <a href="./blog" class="primary-btn blog-btn">Masuk Forum</a>
+                        </div> --}}
                         </div>
                     </div>
                 </div>
@@ -221,17 +147,26 @@
     <!-- Client Section End -->
 
     <!-- Call To Action Section Begin -->
-    <section class="callto-section set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/callto-bg.jpg')}}">
+    {{-- <section class="callto-section set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/callto-bg.jpg')}}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="callto-text">
-                        <h2>Pakar Gizi Ibu Hamil & Menyusui</h2>
+                        <div class="client-left-img">
+                        <img src="{{ asset ('assets/frontend/yogastudio/img/hero-slider/banner.jpg')}}" alt="">
+                    </div>
+                        <div class="col-lg-6 offset-lg-1">
+                    <div class="client-says">
+                        <div class="section-title">
+                             <a href="./tanya " class="primary-btn blog-btn">Masuk Forum</a>
+                        </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- Call To Action End -->
 
 

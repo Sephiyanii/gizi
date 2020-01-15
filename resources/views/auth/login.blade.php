@@ -30,7 +30,8 @@
 					<img src="{{ asset('assets/frontend/reg/reg/images/img-01.png')}}" alt="IMG">
 				</div>
 
-				<form class="login100-form validate-form">
+                <form class="login100-form validate-form" method="POST" action="{{route('login')}}">
+                    {{csrf_field()}}
 					<span class="login100-form-title">
 						Member Login
 					</span>
@@ -54,8 +55,10 @@
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
 							Login
-						</button>
-					</div>
+                        </button>
+                        {{__('Login')}}
+                    </div>
+
 
 					<div class="text-center p-t-12">
 						<span class="txt1">
