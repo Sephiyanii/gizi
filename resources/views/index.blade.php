@@ -29,17 +29,17 @@
     </div>
 
     <!-- Header Section Begin -->
-    <header class="header-section set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/counte-bg.jpg')}}">
+    <header class="header-section set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/header-bg.png')}}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="main-menu">
                         <nav class="inner-main-navbar mobile-menu">
                             <ul>
-                               <li><a href="./blogg"><i class="fa fa-home">Home</i></a></li>
-                                <li><a href="./tanya"><i class="fa fa-comments"></i>Forum</a></li>
-                                <li><a href="./about"><i class="fa fa-clock-o"></i>About Us</a></li>
-                                <li><a href="./contact.html"><i class="fa fa-envelope-o"></i>Contact</a></li>
+                               <li><a href="./blogg"><i class="fa fa-home" >    Home</i></a></li>
+                                <li><a href="./tanya"><i class="fa fa-comments"></i>    Forum</a></li>
+                                <li><a href="./about"><i class="fa fa-clock-o"></i>     About Us</a></li>
+                                <li><a href="./contact.html"><i class="fa fa-envelope-o"></i>   Contact</a></li>
                             </ul>
                         </nav>
                         <div id="mobile-menu-wrap"></div>

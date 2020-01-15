@@ -36,17 +36,16 @@
                     <div class="main-menu">
                         <div class="logo">
                             <a href="./index.html">
-                                <img src="{{ asset('assets/frontend/yogastudio/img/logo.png')}}" alt="">
+                               
                             </a>
                         </div>
                         <nav class="inner-main-navbar mobile-menu">
                             <ul>
-                                <li><a href="./index">Home</a></li>
-                                <li><a href="./classes.html">Classes</a></li>
-                                <li><a href="./about-us.html">About us</a></li>
-                                <li><a href="./elements.html">Shop</a></li>
-                                <li><a href="./blog">Blog</a></li>
-                                <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="./blogg"><i class="fa fa-home" >    Home</i></a></li>
+                                <li><a href="./tanya"><i class="fa fa-comments"></i>    Forum</a></li>
+                                <li><a href="./about"><i class="fa fa-clock-o"></i>     About Us</a></li>
+                                <li><a href="./contact.html"><i class="fa fa-envelope-o"></i>   Contact</a></li>
+                            </ul>
                             </ul>
                         </nav>
                         <div id="mobile-menu-wrap"></div>
