@@ -124,7 +124,8 @@
                         <span>Say hello</span>
                         <h2>Contact us</h2>
                     </div>
-                    <form action="#">
+                    <form action="{{route('konsultasi.store')}}" method="POST" enctype="multipart/form-data" >
+                    {{csrf_field()}}
                         <input type="text" placeholder="Name">
                         <input type="email" placeholder="Mail">
                         <input type="text" placeholder="Subject">
@@ -136,13 +137,9 @@
                     <div class="col-lg-6">
                         <div class="footer-text">
                             <a href="./home.html" class="logo"><img src="{{asset('assets/frontend/yogastudio/img/image.png')}}" alt=""></a>
-                            <p>Aenean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti. Donec congue vel justo eget malesuada. “True meditation is about being fully present with everything that is–including.</p>
+                            <p>“Gizi seimbang sangat penting bagi ibu karena ibu akan memproduksi ASI sebagai makanan satu-satunya bayi hingga usia enam bulan,”.</p>
                             <ul>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                                <li><a href="https://www.instagram.com/sephiyanisyaa/"><i class="fa fa-instagram"></i>OnInsta Sephiyanisyaa</a></li>
                             </ul>
                             <div class="copyright text-white">
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->

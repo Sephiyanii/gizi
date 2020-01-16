@@ -77,53 +77,42 @@
                     <div class="blog-items">
                         <div class="single-blog">
                             <div class="blog-pic">
-                                <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/gizi.jpg')}}" alt="">
+                                <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/img.jpg')}}" alt="">
                             </div>
                             <div class="blog-text">
 
-                                <h2>makanan sehat untuk ibu Hamil </h2>
+                                <h2>Pakar Gizi Ibu Menyusui</h2>
                                 <ul>
                                     <li>By admin</li>
-                                    <li>In Pakar Gizi Ibu Hamil</li>
+                                    <li>15-01-2020</li>
                                 </ul>
-                                <p>Pola makan saat hamil merupakan hal yang harus diperhatikan untuk menjaga kesehatan ibu dan bayi. .</p>
-                                <p>Pada ibu hamil muda bukan berarti harus mengkonsumsi makanan dengan porsi yang lebih banyak akan tetapi memperhatikan kualitas dari makanan yang Anda konsumsi. .</p>
-                                <p>Berikut adalah daftar makanan sehat yang harus dikonsumsi oleh para ibu hamil. </p>
-                                <p>1. Kacang-kacangan</p>
-                                <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/kacang.jpg')}}" alt=""> <br>
-                                <p>Selain mengandung serat yang baik untuk pencernaan, makanan ini juga diperkaya dengan zat kalsium, folat, zat besi, dan seng. Kombinasi kandungan inilah yang dipercaya  oleh para ahli bermanfaat untuk merangsang perkembangan sistem saraf bayi sekaligus meningkatkan kekebalan tubuh ibu.</p>
-                                <p>2. Salmon</p>
-                                <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/salmon.jpg')}}" alt="">
-                                <br>
-                                <p>Ikan yang sangat direkomendasikan untuk dikonsumsi saat mengandung adalah ikan salmon karena mengandung asam lemak omega 3 yang sangat baik untuk perkembangan tubuh janin.
-                                    Tentunya saat hamil, Mama selalu menjaga pola makan yang baik. Sementara makanan yang dikonsumsi ibu hamil akan menjadi asupan nutrisi untuk sang janin.
-                                        Oleh karena itu ada beberapa jenis makanan yang sangat dianjurkan untuk dikonsumsi selama masa kehamilan.
-                                         Ya, salah satunya adalah ikan salmon. Ikan salmon merupakan sumber makanan bernutrisi dan kaya akan gizi untuk ibu hamil.
-                                </p>
-                                <h4>3 Manfaat Ikan Salmon untuk Kesehatan Ibu Hamil</h4>
-                                <br>
-                                <h5>1. Menunjang perkembangan otak janin</h5>
-                                <br>
-                                <p>Sudah pasti tahu kalau salmon salah satu jenis ikan laut yang habitatnya di Samudera Atlantik.
-                                    Ikan salmon memiliki warna daging merah muda. Ikan ini bisa dibuat berbagai olahan yang lezat.
-                                        Ikan yang kaya akan asam lemak Omega 3 ini sangat baik dikonsumsi oleh ibu hamil.
-                                        Kandungan tersebut untuk meningkatkan visual pada janin dan anti peradangan yang dapat merusak kulit.
-                                        Selain itu asam lemak omega 3-nya bermanfaat untuk menunjang perkembangan otak janin.
-                                        Lebih hebatnya lagi, nutrisi dari ikan salmon bisa meminimalisir ibu hamil dari risiko kelahiran prematur dan menurunkan darah tinggi selama masa kehamilan. Dengan begitu ibu hamil terhindar dari berbagai risiko penyakit jantung.</p>
-                                <h5>2. Sebagai sumber energi</h5>
-                                <br>
-                                <p>Tahukah Ma? Bahwa protein dan vitamin yang terkandung di dalam ikan salmon berperan untuk pertumbuhan otot janin dan mengatur sistem metabolisme dalam tubuh, sehingga janin tumbuh dengan sempurna.
-                                    Kandungan proteinnya memberikan manfaat baik untuk ibu hamil, yaitu sebagai sumber energi dan mengatur pertumbuhan hormon.
-                                        Sementara vitamin A dari ikan salmon dapat meningkatkan kesehatan mata pada.
-                                            Lalu vitamin D-nya berfungsi mencegah terjadinya osteoporosis dan vitamin E yang ada di ikan salmon sangat baik untuk menjaga kesehatan kulit Mama.</p>
-                                <h5>3. Pembentukan sel-sel darah dalam tubuh</h5>
-                                <br>
-                                <p>Selama kehamilan tentunya Mama sangat memerhatikan nutrisi maupun gizi yang harus dikonsumsi.
-                                    Nah, salah satu nutrisi yang sangat baik bagi janin adalah mengonsumsi ikan salmon. Mama pun bisa mengolahnya menjadi sup ikan salmon yang lezat.
-                                    Sementara kandungan lain dari ikan salmon yakni memiliki DHA dan EPA. Kandungan tersebut dapat meningkatkan kekuatan otak pada janin dan mengurangi tingkat keguguran.
-                                        Sedangkan EPA yang ada di dalam ikan salmon berfungsi dalam pembentukan sel-sel darah dan jantung.
-                                            Oleh karena itu, ikan salmon bisa menjadi makanan andalan Mama untuk menjaga kesehatan di masa kehamilan.</p>
+                                <p>"Gizi seimbang sangat penting bagi ibu karena ibu akan memproduksi ASI sebagai makanan satu-satunya bayi hingga usia enam bulan." 
+                                    Bayi sampai usia enam bulan hanya membutuhkan Air Susu Ibu (ASI) sebagai makanan terbaik atau disebut ASI eksklusif yang sangat baik untuk
+                                    tumbuh kembangnya dan daya tahan tubuh .</p>
+                                <p>"Komposisi ASI berubah tergantung apa yang ibu makan terutama lemak esensial sangat penting,yang akan dipengaruhi bagi bayi" selain itu izi seimbang juga 
+                                    dibutuhkan dalam penyembuhan setelah persalinan,bahkan gizi seimbang harus terpenuhi sejak ibu hamil, .</p>
+                                <p>Pada trimester pertama saat otak janin terbentuk,asupan gizi tidak boleh kurang untuk pembentukan sistem syaraf pusat,yang harus dipenuhi oleh ibu hamil pada trimester
+                                    pertama yaituasam float yang dapat diperoleh dari kacang hijau ,bayam,kubis,alpukat,jeruk.selain itu juga yang tidak kalah penting adalah asam lemak tidak yang bersumber
+                                    dari alpukat,ikan,minyak,serta vitamin B12 untuk perkembangan sel janin didapat dari sumber makanan hewani. </p>
+                                <p>Pada trimester kedua dan ketiga, yang harus dipenuhi adalah kebutuhan vitamin A untuk proses metabolisme,pembentukan sistem syaraf dan tulang 
+                                    kalsium untuk pembentukan tulang dan gigi serta zat besi untuk membentuk sel darah merah,membawa oksigen dan zat gizi kesemua sel ibu dan janin</p>
+                                
                             </div>
+                            <div class="col-lg-4">
+                    <div class="blog-rt">
+                        <div class="search-form">
+                            <form action="{{asset('search')}}">
+                                <input type="text">
+                                <input type="submit" value="Search">
+                            </form>
+                        </div>
+                            <div class="categories-list">
+                            <h5>Categories</h5>
+                            <ul>
+                               <li><a href="./blogg"><i class="fa fa-genderless"></i> KEBUTUHAN GIZI SEIMBANG SAAT MENYUSUI </a></li>
+                              <li><a href="./blogg"><i class="fa fa-genderless"></i> SUMBER MAKANAN BERGIZI </a></li>
+                            </ul>
+                        </div>
                         </div>
                     </div>
                 </div>

@@ -109,7 +109,7 @@
                 <div class="col-lg-4">
                     <div class="blog-rt">
                         <div class="search-form">
-                            <form action="#">
+                            <form action="{{asset('search')}}">
                                 <input type="text">
                                 <input type="submit" value="Search">
                             </form>

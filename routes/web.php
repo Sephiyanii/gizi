@@ -11,11 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/index', function() {
+Route::get('/', function() {
     return view('index');
 });
 
@@ -28,7 +28,7 @@ Route::get('/blogg', function () {
 });
 
 Route::get('/admin', function () {
-    return view('admin');
+    return view('layouts.admin');
 });
 
 Route::get('/login', function () {
@@ -42,14 +42,30 @@ Route::get('/contact', function () {
 Route::get('/about', function () {
     return view('about');
 });
-Route::get('/tanya', function () {
-    return view('tanya                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ');
+
+Route::get('/gizi', function () {
+    return view('gizi');
 });
+
+Route::get('/register', function () {
+    return view('auth.register');
+});
+
+Route::get('/gizi', function () {
+    return view('gizi');
+});
+
+// Route::get('/tanya', function () {
+//     return view('tanya');                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ');
+// });
+
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/bidan','bidanController@index');
+// Route::group(['prefix'=>'backend', 'middleware'=>['auth']], function(){
+//     Route::resource('/admin','backendController');
+// });
 
-Route::group(['prefix'=>'backend', 'middleware'=>['auth']], function(){
-    Route::resource('/admin','backendController');
-});

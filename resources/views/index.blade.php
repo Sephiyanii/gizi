@@ -39,7 +39,7 @@
                                <li><a href="./blogg"><i class="fa fa-home" >    Home</i></a></li>
                                 <li><a href="./tanya"><i class="fa fa-comments"></i>    Forum</a></li>
                                 <li><a href="./about"><i class="fa fa-clock-o"></i>     About Us</a></li>
-                                <li><a href="./contact.html"><i class="fa fa-envelope-o"></i>   Contact</a></li>
+                                <li><a href="./contact"><i class="fa fa-envelope-o"></i>   Konsultasi</a></li>
                             </ul>
                         </nav>
                         <div id="mobile-menu-wrap"></div>
@@ -61,13 +61,13 @@
                     </p>
                 </div>
             </div>
-            <div class="single-slider-item set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/hero-slider/pp.jpeg')}}">
+            <div class="single-slider-item set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/hero-slider/ll.jpg')}}">
                 <div class="container">
                     <h2>Pakar Gizi Ibu Hamil</h2>
                     <p>
                     <h6>Kebutuhan nutrien meningkat selama hamil. Namun tidak semua kebutuhan nutrien meningkat secara proporsional. .</h6>
                             </p>
-                    <a href="#" class="primary-btn">Read More</a>
+                    <a href="contact" class="primary-btn">Konsultasi</a>
 
                 </div>
             </div>
@@ -99,21 +99,21 @@
                 <div class="col-md-4">
                     <div class="single-classes">
                          <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/kk.jpg')}}" alt="">
-                        <strong>Pakar Gizi Ibu Hamil</strong>
+                        <strong>Pakar Gizi Ibu Hamil</strong> <br><br>
                    <a href="./blog" class="primary-btn blog-btn">Lihat Blog</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="single-classes">
                         <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/img.jpg')}}" alt="">
-                        <strong>Pakar Gizi Ibu Menyusui</strong>
+                        <strong>Pakar Gizi Ibu Menyusui</strong><br><br>
                                        <a href="./blogg" class="primary-btn blog-btn">Lihat Blog</a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="single-classes">
                         <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/jk.jpg')}}" alt="">
-                        <strong>Pakar Gizi Bayi</strong><br>
+                        <strong>Pakar Gizi Bayi</strong><br><br>
                                      <a href="./blog" class="primary-btn blog-btn">Lihat Blog</a>
                     </div>
                 </div>
@@ -191,7 +191,7 @@
                     <div class="col-lg-6">
                         <div class="footer-text">
                             <a href="./home.html" class="logo"><img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/image.png')}}" alt="" width="120px"></a>
-                            <p>Aenean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti. Donec congue vel justo eget malesuada. “True meditation is about being fully present with everything that is–including.</p>
+                            <p>“Gizi seimbang sangat penting bagi ibu karena ibu akan memproduksi ASI sebagai makanan satu-satunya bayi hingga usia enam bulan,”.</p>
                             <ul>
                                 <li><a href="https://www.instagram.com/sephiyanisyaa/"><i class="fa fa-instagram"></i> Sephiyanisyaa</a></li>
 

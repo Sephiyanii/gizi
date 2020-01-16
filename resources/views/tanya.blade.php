@@ -104,20 +104,28 @@
 			<hr color="black">
 
 			<strong>PERTANYAAN</strong><br>
-			Dokter saya kan suntik kb 3 bulan habis lahiran saya langsung suntik kb tapi kenapa saya menstruasi terus ke hitung sampe 4bulan sampe sekarang saya harus gimana iya dok
+            Selamat Siang Dok, Saya mau tanya,selama hamil saya gemar sekali menyantap makanan bercita-rasa asam,apakah berbahaya bagi janin?
 			<b>(sri rahayu)</b><br><br>
 
 			<strong>JAWABAN</strong><br>
-			selamat siang Ibu Rahayu, KB suntik 3 bulan memang memerlukan adaptasi dengan tubuh sekitar 3 kali penyuntikan atau 9 bulan, jadi awal penggunaan biasa reaksi seperti itu tapi bukan menstruasi hanya mengeluarkan darah atau flek, jika jumlah darah berlebihan bisa diberikan terapi dengan berobat ke Puskesmas. Terima kasih
-			<b>(wida - bidan)</b><br><br>
+			selamat siang Ibu Rahayu, Salah satu pemicu rasa mual pada ibu hamil adalah perubahan konsentrasi hormon estrogen dan progesteron di awal kehamilan.
+            perubahan hormonal membuat tubuh bekerja keras untuk beradaptasi,salah satu akibatnya,indera pengecap dan penciuman wanita hamil jadi lebih sensitif
+            dari biasanya.ketika mual menyerang,otomatis ibu hamil akan mencari penawar dengan menyantap makanan yang cita rasanya cenderung asam,atau pedas.
+            tidak ada larangan makan-makanan yang asa saat hamil,asal jangan mengonsumsi makanan asam selagi perut kosong,karena makanan asam bersifat iritatif sehingga berisiko melukai lambung
+            jika disantap saat lambung kosong,pilih jenis asam yang alami ketimbang buatan, batasi porsinya jangan sampai cemilan asam membuat anda kenyang sehingga melupakan jadwal makan utama Terimakasih.
+			<b>[admin]</b><br><br>
 			<hr color="black">
 
 			<strong>PERTANYAAN</strong><br>
-			Mohon maaf dok, sy mau tanya.. Apakah d puskesmas senen melayani tes iva.. Dan brapa biaya nya.. Dan buka pada hari apa saja?
+			Mohon maaf dok, sy mau tanya perut saya gatal,apakah itu pertanda janin mulai tumbuh rambut?
 			<b>(Widia rhamdona fatimah)</b><br><br>
 
 			<strong>JAWABAN</strong><br>
-			Selamat siang Ibu Widia, untuk pemeriksaan iva dapat dilakukan di Puskesmas Kami, untuk biayanya, bila ibu memiliki bpjs dengan faskes puskesmas kami makan tidak ada biaya, namun bila tidak ada dikenakan biaya Rp 5.000, 00. Untuk pemeriksaan iva dilakukan pada hari Senin dan kamis, terima kasih
+			Selamat siang Ibu Widia, Rasa gatal diperut saat hamil adalah hal yang biasa dialami oleh para wanita diawal kehamilan hingga semester akhir kehamilan.meskipun tidak menimbulkan bahaya,
+            namun rasa gatal tersebutkerap kali mengganggu dan menyebabkan rasa tidak nyaman bagi ibu hamil.jika anda mengira bahwa rasa gatal di perut itu akibat rambut janin yang mulai tumbuh,
+            maka itu bukanlah jawaban yang benar.rasa gatal diperut saat hamil terjadi akibat beberapa hala,yaitu: Adanya peregangan kulit saat membesar yang membuat kondisi kulit menjadi lebih kering,
+            kenaikan berat tubuh yang berlebihan saat hamil yang mengakibatkan kulit tubuh mengalami pergesekan dan menimbulkan irirtasi kulit,adanya perubahan jumlah produksi hormon estrogen dan progesteron 
+            pada ibu hamil.Terimakasih.
 			<b>(admin - admin)</b><br><br>
 			<hr color="black">
 
@@ -206,8 +214,7 @@ Anti-Spam - Masukkan kode berikut : 1201 <br>
                             <a href="./home.html" class="logo"><img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/image.png')}}" alt="" width="120px"></a>
                            <p>“Gizi seimbang sangat penting bagi ibu karena ibu akan memproduksi ASI sebagai makanan satu-satunya bayi hingga usia enam bulan,” </p>
                             <ul>
-                                <li><a href="#"><i class="fa fa-instagram"></i> OnInsta Sephiyanisyaa</a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i> OnFace Sephiyanisya</a></li>
+                                <li><a href="https://www.instagram.com/sephiyanisyaa/"><i class="fa fa-instagram"></i> OnInsta Sephiyanisyaa</a></li>
                             </ul>
                             <div class="copyright text-white">
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
