@@ -90,8 +90,8 @@
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="home-title">
-                        <span class="tickler-text">Who we are</span>
-                        <h2>Blog</h2>
+                        <span class="tickler-text">WELCOME</span>
+                        <h2>Category</h2>
                     </div>
                 </div>
             </div>

@@ -7,19 +7,20 @@
     <meta name="keywords" content="Yoga, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Yoga Studio | Template</title>
+    <title>Pakar Gizi Ibu Hamil & Menyusui
+    </title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="{{asset('assets/frontend/yogastudio/css/bootstrap.min.cs')}}s" type="text/css">
-    <link rel="stylesheet" href="{{asset('assets/frontend/yogastudio/css/font-awesome.min.cs')}}s" type="text/css">
-    <link rel="stylesheet" href="{{asset('assets/frontend/yogastudio/css/flaticon.cs')}}s" type="text/css">
-    <link rel="stylesheet" href="{{asset('assets/frontend/yogastudio/css/owl.carousel.min.cs')}}s" type="text/css">
-    <link rel="stylesheet" href="{{asset('assets/frontend/yogastudio/css/slicknav.min.cs')}}s" type="text/css">
-    <link rel="stylesheet" href="{{asset('assets/frontend/yogastudio/css/style.cs')}}s" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/yogastudio/css/bootstrap.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/yogastudio/css/font-awesome.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/yogastudio/css/flaticon.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/yogastudio/css/owl.carousel.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/yogastudio/css/slicknav.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/frontend/yogastudio/css/style.css')}}" type="text/css">
 </head>
 
 <body>
@@ -28,24 +29,23 @@
         <div class="loader"></div>
     </div>
     <!-- Header Section Begin -->
-    <header class="header-section set-bg" data-setbg="{{asset('assets/frontend/yogastudio/img/header-bg.png')}}">
+    <header class="header-section set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/header-bg.png')}}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
                     <div class="main-menu">
                         <div class="logo">
                             <a href="./index.html">
-                            
+                                <img src="{{ asset('assets/frontend/yogastudio/img/logo.png')}}" alt="">
                             </a>
                         </div>
                         <nav class="inner-main-navbar mobile-menu">
                             <ul>
-                            <li><a href="./blogg"><i class="fa fa-home" >    Home</i></a></li>
-                                <li><a href="./tanya"><i class="fa fa-comments"></i>    Forum</a></li>
-                                <li><a href="./about"><i class="fa fa-clock-o"></i>     About Us</a></li>
-                                <li><a href="./contact.html"><i class="fa fa-envelope-o"></i>   Contact</a></li>
+                                <li><a href="./"><i class="fa fa-home"></i>Home</a></li>
+                                 <li><a href="./tanya"><i class="fa fa-comments"></i>Forum</a></li>
+                                 <li><a href="./about"><i class="fa fa-clock-o"></i>About Us</a></li>
+                                <li><a href="./contact"><i class="fa fa-envelope-o"></i>Konsultasi</a></li>
                             </ul>
-                                
                         </nav>
                         <div id="mobile-menu-wrap"></div>
                     </div>
@@ -60,90 +60,77 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="hero-item">
-                        <span class="tickler-text">Say hello</span>
-                        <h1>Contact Me</h1>
+                        <span class="tickler-text">WELCOME</span>
+                        <h1>Mari Konsultasi</h1>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Hero Single Section End -->
-    <!-- Contact Section Begin -->
-    <section class="contact-details">
+    <!-- Blog Section Begin -->
+    <section class="blog-section spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="contact-lt">
-                        <div class="section-title">
-                            <span>Contact info</span>
-                            <h2>Get in touch </h2>
-                            <p>Aenean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti. Donec congue vel justo eget malesuada. enean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti.</p>
-                        </div>
-                        <div class="address-details">
-                            <h5>Information</h5>
+                <div class="col-lg-8">
+                    <div class="blog-items">
+                        <div class="single-blog">
                             <ul>
-                                <li>Sephiyanisyaa</li>
-                                <li>+6283824212387</li>
-                                <li>sephiyanigabriela@gmail.com</li>
+                                <li><a href="#"><i class="fa fa-stethoscope" aria-hidden="true"></i> Bicara Dengan Dokter</a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i> OnFace Sephiyanisya</a></li>
+                            </ul>
+                <div class="col-lg-4">
+                    <div class="blog-rt">
+                        <div class="search-form">
+                            <form action="{{asset('search')}}">
+                                <input type="text">
+                                <input type="submit" value="Search">
+                            </form>
+                        </div>
+                            <div class="categories-list">
+                            <h5>Categories</h5>
+                            <ul>
+                               <li><a href="./blogg"><i class="fa fa-genderless"></i> makanan sehat untuk ibu Hamil </a></li>
+                              <li><a href="./blogg"><i class="fa fa-genderless"></i> NUTRISI IBU HAMIL</a></li>
                             </ul>
                         </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 offset-lg-1">
-                    <div class="yoga-schedule">
-                        <div class="section-title">
-                            <span>Hours</span>
-                            <h2>Schedule</h2>
-                        </div>
-                        <ul>
-                            <li><span>Monday</span><span class="time">10:30 - 19:00</span></li>
-                            <li><span>Tuesday</span><span class="time">10:30 - 19:00</span></li>
-                            <li><span>Wednesday</span><span class="time">10:30 - 19:00</span></li>
-                            <li><span>Thursday</span><span class="time">10:30 - 19:00</span></li>
-                            <li><span>Friday</span><span class="time">10:30 - 19:00</span></li>
-                            <li><span>Saturday</span><span class="time">10:30 - 14:00</span></li>
-                            <li><span>Sunday</span><span class="time">Closed</span></li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Contact Section End -->
-    <!-- Map Section Begin -->
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24176.251535937678!2d-73.96828677849068!3d40.761333182809906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258c4d85a0d8d%3A0x11f877ff0b8ffe27!2sRoosevelt+Island!5e0!3m2!1sen!2sbd!4v1564859733175!5m2!1sen!2sbd" height="590" style="border:0" allowfullscreen></iframe>
-    </div>
-    <!-- Map Section End -->
+    <!-- Blog Section End -->
+
+
     <!-- Footer Section Begin -->
-    <footer class="footer-section set-bg" data-setbg="{{asset('assets/frontend/yogastudio/img/footer-bg.jpg')}}">
+    <footer class="footer-section set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/footer-bg.jpg')}}">
         <div class="container">
-            <div class="contact-inner">
+            {{-- <div class="contact-inner">
                 <div class="contact-form">
                     <div class="section-title">
                         <span>Say hello</span>
                         <h2>Contact us</h2>
                     </div>
-                    <form action="{{route('konsultasi.store')}}" method="POST" enctype="multipart/form-data" >
-                    {{csrf_field()}}
+                    <form action="#">
                         <input type="text" placeholder="Name">
                         <input type="email" placeholder="Mail">
                         <input type="text" placeholder="Subject">
                         <textarea placeholder="Message"></textarea>
                         <button type="submit" class="submit-btn">Send</button>
                     </form>
-                </div>
+                </div> --}}
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="footer-text">
-                            <a href="./home.html" class="logo"><img src="{{asset('assets/frontend/yogastudio/img/image.png')}}" alt=""></a>
-                            <p>“Gizi seimbang sangat penting bagi ibu karena ibu akan memproduksi ASI sebagai makanan satu-satunya bayi hingga usia enam bulan,”.</p>
+                            <a href="./home.html" class="logo"><img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/image.png')}}" alt="" width="120px"></a>
+                           <p>“Gizi seimbang sangat penting bagi ibu karena ibu akan memproduksi ASI sebagai makanan satu-satunya bayi hingga usia enam bulan,” </p>
                             <ul>
-                                <li><a href="https://www.instagram.com/sephiyanisyaa/"><i class="fa fa-instagram"></i>OnInsta Sephiyanisyaa</a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i> OnInsta Sephiyanisyaa</a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i> OnFace Sephiyanisya</a></li>
                             </ul>
                             <div class="copyright text-white">
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Sephiyanisyaa <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             </div>
                         </div>
@@ -154,12 +141,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </footer>
     <!-- Footer Section End -->
     <!-- Js Plugins -->
-    <script src="{{asset('assets/frontend/yogastudio/js/jquery-3.3.1.min.js')}}"></script>
-    <script src="{{asset('assets/frontend/yogastudio/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('assets/frontend/yogastudio/js/jquery.slicknav.js')}}"></script>
-    <script src="{{asset('assets/frontend/yogastudio/js/owl.carousel.min.js')}}"></script>
-    <script src="{{asset('assets/frontend/yogastudio/js/circle-progress.min.js')}}"></script>
-    <script src="{{asset('assets/frontend/yogastudio/js/main.js')}}"></script>
+    <script src="{{ asset('assets/frontend/yogastudio/js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{ asset('assets/frontend/yogastudio/js/bootstrap.min.js')}}"></script>
+    <script src="{{ asset('assets/frontend/yogastudio/js/jquery.slicknav.js')}}"></script>
+    <script src="{{ asset('assets/frontend/yogastudio/js/owl.carousel.min.js')}}"></script>
+    <script src="{{ asset('assets/frontend/yogastudio/js/circle-progress.min.js')}}"></script>
+    <script src="{{ asset('assets/frontend/yogastudio/js/main.js')}}"></script>
 </body>
 
 </html>
