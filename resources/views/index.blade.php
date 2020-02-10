@@ -53,7 +53,7 @@
     <!-- Hero Slider Section Begin -->
     <section class="hero-slider">
         <div class="slider-items owl-carousel">
-            <div class="single-slider-item set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/hero-slider/ll.jpg')}}">
+            <div class="single-slider-item set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/ibu.jpg')}}">
                 <div class="container">
                     <h2>Pakar Gizi Ibu Hamil & Menyusui</h2>
                     <p>
@@ -89,34 +89,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
-                    <div class="home-title">
-                        <span class="tickler-text">WELCOME</span>
-                        <h2>Category</h2>
-                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="single-classes">
-                         <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/kk.jpg')}}" alt="">
-                        <strong>Pakar Gizi Ibu Hamil</strong> <br><br>
-                   <a href="./blog" class="primary-btn blog-btn">Lihat Blog</a>
+                          <strong>Category</strong><br><br>
+                        <a href="./blog">
+                        <img src="{{ asset('assets/frontend/yogastudio/img/cat.png')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="single-classes">
-                        <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/img.jpg')}}" alt="">
-                        <strong>Pakar Gizi Ibu Menyusui</strong><br><br>
-                                       <a href="./blogg" class="primary-btn blog-btn">Lihat Blog</a>
+                         <strong>Artikel</strong><br><br>
+                        <a href="./contact">
+                        <img src="{{ asset('assets/frontend/yogastudio/img/ico.png')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
                     </div>
                 </div>
-                <div class="col-md-4">
+                 <div class="col-md-4">
                     <div class="single-classes">
-                        <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/jk.jpg')}}" alt="">
-                        <strong>Pakar Gizi Bayi</strong><br><br>
-                                     <a href="./blog" class="primary-btn blog-btn">Lihat Blog</a>
+                        <strong>Konsultasi</strong><br><br>
+                        <a href="./contact">
+                        <img src="http://rsudalihsan.jabarprov.go.id/themes/default//images/pengaduan.png" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
+                
+            </div>
+
                     </div>
-                </div>
                 </div>
             </div>
         </div>

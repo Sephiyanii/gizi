@@ -41,7 +41,7 @@
                         </div>
                         <nav class="inner-main-navbar mobile-menu">
                             <ul>
-                                <li><a href="./index"><i class="fa fa-home"></i>Home</a></li>
+                                <li><a href="./"><i class="fa fa-home"></i>Home</a></li>
                                  <li><a href="./tanya"><i class="fa fa-comments"></i>Forum</a></li>
                                  <li><a href="./about"><i class="fa fa-clock-o"></i>About Us</a></li>
                                 <li><a href="./contact.html"><i class="fa fa-envelope-o"></i>Contact</a></li>
@@ -60,8 +60,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="hero-item">
-                        <span class="tickler-text">Who we are</span>
-                        <h1>Blog</h1>
+                        <span class="tickler-text">WELCOME</span>
+                        <h1>Category</h1>
                     </div>
                 </div>
             </div>
@@ -76,52 +76,45 @@
                     <div class="blog-items">
                         <div class="single-blog">
                             <div class="blog-pic">
-                                <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/kk.jpg')}}" alt="">
-                            </div>
-                            <div class="blog-text">
-
-                                <h2>Menjaga Kesehatan Kandungan</h2>
-                                <ul>
-                                    <li>By admin</li>
-                                    <li>In Yoga</li>
-                                    <li>Hatha, tips, tricks</li>
-                                </ul>
-                                <p>Memiliki seorang anak merupakan dambaan bagi pasangan suami istri pada umumnya. Bagi para wanita yang sedang hamil, akan lebih baik apabila selalu mengetahui perkembangan calon buah hati Anda.</p>
-                                <p>Sebagai contoh ialah perubahan usia kehamilan dari setiap minggunya dan setiap bulannya, seperti perubahan fisik, pertumbuhan organ, terbentuknya fungsi organ dengan baik dan perubahan-perubahan lainnya. Beberapa perubahan fisik ini biasanya terjadi ketika usia kandungan memasuki usia kehamilan 2 bulan.</p>
-                                <p>Seringkali terdengar kasus keguguran yang dikarenakan oleh para wanita yang tidak mengetahui kalau sedang hamil. Selain itu, banyak juga kasus ibu muda yang baru menjalani masa kehamilan sehingga dipenuhi dengan kecanggungan dan rasa tidak tahu. </p>
-                            </div>
-                        </div>
-                                <h2>Hal-Hal Supaya Kandungan Sehat</h2>
-                                <p>Berikut adalah beberapa tips untuk menjaga kehamilan agar tetap sehat dan tidak keguguran: </p>
-                                <p>1. Hindari aktifitas berat saat hamil</p>
-                                <p>Ibu hamil terutama para ibu yang sedang hamil muda dilarang untuk melakukan aktifitas berat yang dapat merugikan kondisi janin bayi. Selain itu, sebaiknya Ibu tidak terlalu lama berdiri. Ketika Ibu terlalu lama berdiri maka bisa menyebabkan rahim menjadi terlalu tegang. Kondisi ini dapat memicu kondisi kram atau kontraksi yang dapat menyebabkan keguguran.</p>
-                                <p>2. Hindari produk alkohol dan minuman sod</p>
-                                <p>Kebiasaan mengkonsumsi alkohol dan semua jenis minuman bersoda sebaiknya dihentikan karena dapat menyebabkan kondisi serius pada janin. Kondisi tersebut antara lainnya adalah seperti gangguan bayi, lahir prematur, cacat lahir, cacat mental dan juga kematian janin. </p>
-                                <p>3. Hindari rokok dan asap rokok</p>
-                                <p>Rokok mengandung nikotin yang sangat berbahaya untuk kesehatan ibu dan janin. Rokok dapat menyebabkan bayi lahir dengan berat badan yang sangat rendah dan kelahiran prematur. Kondisi serius lainnya seperti kehamilan ektopik, plasenta letak rendah, persalinan permatur dan pendarahan setelah persalinan. </p>
-                                <p>4. Asupan nutrisi sehat yang cukup</p>
-                                <p>Seperti yang telah dijelaskan di atas, disarankan bagi para ibu hamil untuk memperbanyak konsumsi makanan sehat. Biasanya pada ibu hamil, selera makan dan rasa mual akan muncul yang mengakibatkan kurangnya asupan nutrisi pada tubuh. Jika asupan nutrisi kurang, maka akan berakibat buruk bagi para janin bayi.</p>
-                                <p>5. Hindari stress</p>
-                                <p>Ibu hamil yang sering mengalami stress berat dapat mengakibatkan kondisi serius seperti lahir prematur serta berat badan bayi ringan. Keguguran juga dapat terjadi apabila kondisi stress yang dialami terus menerus. </p>
-                            </div>
-                        </div>
+                                <div class="col-md-12">
+                  <h2 class="text-center">Pakar Gizi Ibu Hamil</h2>
+                </div> 
+                <br><br>
+                <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
                 </div>
-                <div class="col-lg-4">
-                    <div class="blog-rt">
-                        <div class="search-form">
-                            <form action="{{asset('search')}}">
-                                <input type="text">
-                                <input type="submit" value="Search">
-                            </form>
-                        </div>
-                            <div class="categories-list">
-                            <h5>Categories</h5>
-                            <ul>
-                               <li><a href="./blogg"><i class="fa fa-genderless"></i> makanan sehat untuk ibu Hamil </a></li>
-                              <li><a href="./blogg"><i class="fa fa-genderless"></i> NUTRISI IBU HAMIL</a></li>
-                            </ul>
-                        </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-classes">
+                          <strong>Nutrisi Ibu Hamil</strong><br><br>
+                        <a href="./blog">
+                        <img src="{{ asset('assets/frontend/yogastudio/img/gre.png')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
                     </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="single-classes">
+                         <strong>Olahraga Ibu Hamil</strong><br><br>
+                        <a href="./contact">
+                        <img src="{{ asset('assets/frontend/yogastudio/img/yoga.png')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="single-classes">
+                        <strong>Konsultasi</strong><br><br>
+                        <a href="./contact">
+                        <img src="http://rsudalihsan.jabarprov.go.id/themes/default//images/pengaduan.png" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
+                
+            </div>
+                    </div>
+                </div>
+                <br><br><br>
+                 <div class="col-md-12">
+                  <h2 class="text-center">Pakar Gizi Ibu Menyusui</h2>
+                </div> 
+                              </div>
+            
                 </div>
             </div>
         </div>

@@ -46,6 +46,8 @@
           <span>Dashboard</span></a>
       </li>
 
+      
+
       <!-- Divider -->
       <hr class="sidebar-divider">
 
@@ -141,13 +143,18 @@
 
     <!-- Content Wrapper -->
     <div id="content-wrapper" class="d-flex flex-column">
+      
+      
 
       <!-- Main Content -->
       <div id="content">
+        
+        
 
         <!-- Topbar -->
         <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
 
+          
           <!-- Sidebar Toggle (Topbar) -->
           <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
             <i class="fa fa-bars"></i>
@@ -493,9 +500,45 @@
 
           <!-- Content Row -->
           <div class="row">
+             <div class="table-responsive">
+                                <table class="table table-hover table-dark  ">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">No</th>
+                                        <th scope="col">Nama Kategori</th>
+                                        <th scope="col">Slug</th>
+                                        <th colspan="2" class="text-center">Aksi</th>
+                                    </tr>
+                                    </thead>
+                                    {{-- @php $no = 1; @endphp
+                                    @foreach($kategori as $data)
+                                    <tr>
+                                        <td>{{ $no++ }}</td>
+                                        <td>{{ $data->nama }}</td>
+                                        <td>{{ $data->slug }}</td>
+                                        <td>
+                                            <a href="{{ route('kategori.edit',$data->id) }}"
+                                            class="btn btn-outline-info">Edit Data</a>
+                                        </td>
+
+                                        <td>
+                                            <form action="{{ route('kategori.destroy',$data->id) }}" method="post">
+                                            {{csrf_field()}}
+                                                <input type="hidden" name="_method" value="DELETE">
+                                                <button class="btn btn-outline-info" type="submit">
+                                                    Hapus Data
+                                                </button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                    @endforeach --}}
+                                </table>
+                        </div>
+                    </div>
 
             <!-- Content Column -->
             <div class="col-lg-6 mb-4">
+              
 
               <!-- Project Card Example -->
               <!-- <div class="card shadow mb-4">
