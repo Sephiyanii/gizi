@@ -23,7 +23,7 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
-Route::get('/blogg', function () {
+Route::get('/article', function () {
     return view('blogg');
 });
 

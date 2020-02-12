@@ -38,7 +38,7 @@
                             <ul>
                                <li><a href="./blogg"><i class="fa fa-home" >    Home</i></a></li>
                                 <li><a href="./about"><i class="fa fa-clock-o"></i> Contact Me</a></li>
-                                <li><a href="./contact"><i class="fa fa-envelope-o"></i>   Konsultasi</a></li>
+                                <li><a href="./konsul"><i class="fa fa-envelope-o"></i>   Konsultasi</a></li>
                             </ul>
                         </nav>
                         <div id="mobile-menu-wrap"></div>
@@ -101,7 +101,7 @@
                 <div class="col-md-4">
                     <div class="single-classes">
                          <strong>Artikel</strong><br><br>
-                        <a href="./contact">
+                        <a href="./article">
                         <img src="{{ asset('assets/frontend/yogastudio/img/ico.png')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
                         <strong>Konsultasi</strong><br><br>
                         <a href="./contact">
                         <img src="http://rsudalihsan.jabarprov.go.id/themes/default//images/pengaduan.png" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
-                
+
             </div>
 
                     </div>

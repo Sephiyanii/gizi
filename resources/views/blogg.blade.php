@@ -36,7 +36,7 @@
                     <div class="main-menu">
                         <div class="logo">
                             <a href="./index.html">
-                               
+
                             </a>
                         </div>
                         <nav class="inner-main-navbar mobile-menu">
@@ -44,7 +44,7 @@
                             <li><a href="./blogg"><i class="fa fa-home" >    Home</i></a></li>
                                 <li><a href="./tanya"><i class="fa fa-comments"></i>    Forum</a></li>
                                 <li><a href="./about"><i class="fa fa-clock-o"></i>     About Us</a></li>
-                                <li><a href="./contact.html"><i class="fa fa-envelope-o"></i>   Contact</a></li>
+                                <li><a href="./konsul"><i class="fa fa-envelope-o"></i>   Konsultasi</a></li>
                             </ul>
                             </ul>
                         </nav>
@@ -61,8 +61,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="hero-item">
-                        <span class="tickler-text">Who we are</span>
-                        <h1>Blog</h1>
+                        <span class="tickler-text">WELCOME</span>
+                        <h1 class="text-align">Article</h1>
                     </div>
                 </div>
             </div>
@@ -70,64 +70,76 @@
     </section>
     <!-- Hero Single Section End -->
     <!-- Blog Section Begin -->
-    <section class="blog-section spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="blog-items">
-                        <div class="single-blog">
-                            <div class="blog-pic">
-                                <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/gizi.jpg')}}" alt="">
-                            </div>
-                            <div class="blog-text">
+    <section class="">
+        <br><br>
+        <div class="section-row">
+                        <h3 class="text-center">Recent Posts</h3>
+                        <br><br>
+                        <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig">
 
-                                <h2>makanan sehat untuk ibu Hamil </h2>
-                                <ul>
-                                    <li>By admin</li>
-                                    <li>In Pakar Gizi Ibu Hamil</li>
-                                </ul>
-                                <p>Pola makan saat hamil merupakan hal yang harus diperhatikan untuk menjaga kesehatan ibu dan bayi. .</p>
-                                <p>Pada ibu hamil muda bukan berarti harus mengkonsumsi makanan dengan porsi yang lebih banyak akan tetapi memperhatikan kualitas dari makanan yang Anda konsumsi. .</p>
-                                <p>Berikut adalah daftar makanan sehat yang harus dikonsumsi oleh para ibu hamil. </p>
-                                <p>1. Kacang-kacangan</p>
-                                <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/kacang.jpg')}}" alt=""> <br>
-                                <p>Selain mengandung serat yang baik untuk pencernaan, makanan ini juga diperkaya dengan zat kalsium, folat, zat besi, dan seng. Kombinasi kandungan inilah yang dipercaya  oleh para ahli bermanfaat untuk merangsang perkembangan sistem saraf bayi sekaligus meningkatkan kekebalan tubuh ibu.</p>
-                                <p>2. Salmon</p>
-                                <img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/salmon.jpg')}}" alt="">
-                                <br>
-                                <p>Ikan yang sangat direkomendasikan untuk dikonsumsi saat mengandung adalah ikan salmon karena mengandung asam lemak omega 3 yang sangat baik untuk perkembangan tubuh janin.
-                                    Tentunya saat hamil, Mama selalu menjaga pola makan yang baik. Sementara makanan yang dikonsumsi ibu hamil akan menjadi asupan nutrisi untuk sang janin.
-                                        Oleh karena itu ada beberapa jenis makanan yang sangat dianjurkan untuk dikonsumsi selama masa kehamilan.
-                                         Ya, salah satunya adalah ikan salmon. Ikan salmon merupakan sumber makanan bernutrisi dan kaya akan gizi untuk ibu hamil.
-                                </p>
-                                <h4>3 Manfaat Ikan Salmon untuk Kesehatan Ibu Hamil</h4>
-                                <br>
-                                <h5>1. Menunjang perkembangan otak janin</h5>
-                                <br>
-                                <p>Sudah pasti tahu kalau salmon salah satu jenis ikan laut yang habitatnya di Samudera Atlantik.
-                                    Ikan salmon memiliki warna daging merah muda. Ikan ini bisa dibuat berbagai olahan yang lezat.
-                                        Ikan yang kaya akan asam lemak Omega 3 ini sangat baik dikonsumsi oleh ibu hamil.
-                                        Kandungan tersebut untuk meningkatkan visual pada janin dan anti peradangan yang dapat merusak kulit.
-                                        Selain itu asam lemak omega 3-nya bermanfaat untuk menunjang perkembangan otak janin.
-                                        Lebih hebatnya lagi, nutrisi dari ikan salmon bisa meminimalisir ibu hamil dari risiko kelahiran prematur dan menurunkan darah tinggi selama masa kehamilan. Dengan begitu ibu hamil terhindar dari berbagai risiko penyakit jantung.</p>
-                                <h5>2. Sebagai sumber energi</h5>
-                                <br>
-                                <p>Tahukah Ma? Bahwa protein dan vitamin yang terkandung di dalam ikan salmon berperan untuk pertumbuhan otot janin dan mengatur sistem metabolisme dalam tubuh, sehingga janin tumbuh dengan sempurna.
-                                    Kandungan proteinnya memberikan manfaat baik untuk ibu hamil, yaitu sebagai sumber energi dan mengatur pertumbuhan hormon.
-                                        Sementara vitamin A dari ikan salmon dapat meningkatkan kesehatan mata pada.
-                                            Lalu vitamin D-nya berfungsi mencegah terjadinya osteoporosis dan vitamin E yang ada di ikan salmon sangat baik untuk menjaga kesehatan kulit Mama.</p>
-                                <h5>3. Pembentukan sel-sel darah dalam tubuh</h5>
-                                <br>
-                                <p>Selama kehamilan tentunya Mama sangat memerhatikan nutrisi maupun gizi yang harus dikonsumsi.
-                                    Nah, salah satu nutrisi yang sangat baik bagi janin adalah mengonsumsi ikan salmon. Mama pun bisa mengolahnya menjadi sup ikan salmon yang lezat.
-                                    Sementara kandungan lain dari ikan salmon yakni memiliki DHA dan EPA. Kandungan tersebut dapat meningkatkan kekuatan otak pada janin dan mengurangi tingkat keguguran.
-                                        Sedangkan EPA yang ada di dalam ikan salmon berfungsi dalam pembentukan sel-sel darah dan jantung.
-                                            Oleh karena itu, ikan salmon bisa menjadi makanan andalan Mama untuk menjaga kesehatan di masa kehamilan.</p>
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="{{ asset('assets/frontend/yogastudio/img/b.jpg') }}" alt=""></a>
+                            <div class="post-body">
+                                <h5 class="post-title"><a href="/ar">Keamanan Obat Pada Ibu Hamil</a></h5>
                             </div>
                         </div>
                     </div>
-                </div>
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="{{ asset('assets/frontend/yogastudio/img/c.jpg') }}" alt=""></a>
+                            <div class="post-body">
+                                <h5 class="post-title"><a href="blog-post.html">Menyusui Anak Aktifitas Mulia</a></h5>
+                            </div>
+                        </div>
+                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig">
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="{{ asset('assets/frontend/yogastudio/img/d.jpg') }}" alt=""></a>
+                            <div class="post-body">
+                                <h5 class="post-title"><a href="/ar">Keamanan Obat Pada Ibu Menyusui</a></h5>
+                            </div>
+                        </div>
+
             </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <br><br>
+
+    <section class="">
+        <br><br>
+        <div class="section-row">
+                        <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig">
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="{{ asset('assets/frontend/yogastudio/img/e.jpg') }}" alt=""></a>
+                            <div class="post-body">
+                                <h5 class="post-title"><a href="/ar">Manfaat Pijat Untuk Bayi</a></h5>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="{{ asset('assets/frontend/yogastudio/img/f.jpg') }}" alt=""></a>
+                            <div class="post-body">
+                                <h5 class="post-title"><a href="blog-post.html">Asi Diberikan Secara Esklusif</a></h5>
+                            </div>
+                        </div>
+                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig">
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="{{ asset('assets/frontend/yogastudio/img/g.jpg') }}" alt=""></a>
+                            <div class="post-body">
+                                <h5 class="post-title"><a href="/ar">Nyeri dada,Apakah Sakit Jantung?</a></h5>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+        </div>
         </div>
     </section>
     <!-- Blog Section End -->
@@ -155,7 +167,7 @@
                             <p>“Gizi seimbang sangat penting bagi ibu karena ibu akan memproduksi ASI sebagai makanan satu-satunya bayi hingga usia enam bulan,”.</p>
                             <ul>
                                 <li><a href="https://www.instagram.com/sephiyanisyaa/"><i class="fa fa-instagram"></i> OnInsta : Sephiyanisyaa</a></li>
-                               
+
                             </ul>
                             <div class="copyright text-white">
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->

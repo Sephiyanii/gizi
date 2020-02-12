@@ -77,7 +77,7 @@
     <!--Section sescription-->
     <p class="section-description m-b-5">Silakan untuk bertanya disini dengan mengisi form dibawah ini . kami akan membalas jawaban anda yang anda masukan.</p>
 
-    
+
     <div class="row">
 
         <!--First column-->
@@ -85,67 +85,73 @@
 
             <!--Form with header-->
             <div class="card">
-                
+
                 <div class="card-block">
                     <!--Header-->
-                       <h3><i class="fa fa-envelope"></i> Pertanyaan Anda ?</h3>                
+                       <h3><i class="fa fa-envelope"></i> Pertanyaan Anda ?</h3>
                 <form action="http://rsudalihsan.jabarprov.go.id/tanyajawab" class="form-vertical" method="post" accept-charset="utf-8">
                     <input type="hidden" name="ci_csrf_token" value="53207c1cda4a8bf3e280563ca058e472" style="display:none;">
+                    <br><br>
                         <div class="form-group">
                             <label for="form3">Nama Lengkap</label>
                          <input type="text" class="form-control" required="" name="pengirim" id="pengirim" value="">
                              </div>
                      <div class="form-group">
                         <label for="form2">Email</label>
-     <input type="email" class="form-control" required="" name="email" id="email" value="">
+             <input type="email" class="form-control" required="" name="email" id="email" value="">
                 </div>
+                     <div class="form-group">
+                            <label for="sel1">Keluhan Ibu Hamil</label>
+                        <select class="form-control" id="keluhan">
+    	                    <option>-</option>
+                            <option>Pendarahan</option>
+                            <option>Tekanan Darah Tinggi</option>
+                                <option>Nyeri Punggung Bagian Bawah</option>
+                                <option>Kesulitan Bernafas</option>
+                                <option>Kontraksi</option>
+                                <option>Kram Kaki</option>
+    </select>
+  </div>
+
+             <div class="form-group">
+                            <label for="sel1">Keluhan Ibu Menyusui</label>
+                        <select class="form-control" id="keluhan">
+    	                    <option>-</option>
+                            <option>Saluran Sumbatan ASI</option>
+                            <option>Gastroenteritis (radang saluran cerna)</option>
+                                <option>Pertumbuhan Terhambat</option>
+                                <option>Hernia Pada Bayi</option>
+                                <option>Kontraksi</option>
+                                <option>Kram Kaki</option>
+    </select>
+  </div>
+                    </div>
                     <div class="form-group">
                         <label for="form2">Pesan</label>
-      <textarea name="komen" required="" class="form-control" rows="6"></textarea>
+                <textarea name="komen" required="" class="form-control" rows="6"></textarea>
                         </div>
-                <div class="md-group">
-                        <link type="text/css" rel="Stylesheet" href="http://rsudalihsan.jabarprov.go.id/assets/captcha/LBD_Layout.css">   
-                       Ketik Kode Di Bawah InI: 
-                <div class="LBD_CaptchaDiv" id="SampleCaptcha_CaptchaDiv" style="width:280px; height:50px;"><!--
-                --><div class="LBD_CaptchaImageDiv" id="SampleCaptcha_CaptchaImageDiv" style="width:250px !important; height:50px !important;"><!--
-                --><div class="LBD_CaptchaImageDiv" style="width:250px; height:40px;"><img class="LBD_CaptchaImage" id="SampleCaptcha_CaptchaImage" src="http://rsudalihsan.jabarprov.go.id/botdetect/captchahandler/index?get=image&amp;c=samplecaptcha&amp;t=7966c8e74c9e6cecd69596321c436381" alt="CAPTCHA"></div><!--
-                --><a href="http://captcha.biz/php-captcha-info.html" target="_blank" title="What is BotDetect PHP CAPTCHA Library?" style="display: block !important; height: 10px !important; margin: 0 !important; padding: 0 !important; font-size: 9px !important; line-height: 9px !important; visibility: visible !important; font-family: Verdana, DejaVu Sans, Bitstream Vera Sans, Verdana Ref, sans-serif !important; vertical-align: middle !important; text-align: center !important; text-decoration: none !important; background-color: #f8f8f8 !important; color: #606060 !important;">What is BotDetect PHP CAPTCHA Library?</a><!--
-                --></div><!--
-                 --><div class="LBD_CaptchaIconsDiv" id="SampleCaptcha_CaptchaIconsDiv" style="width: 24px !important;"><!--
-                 --><a class="LBD_ReloadLink" id="SampleCaptcha_ReloadLink" href="#" onclick="SampleCaptcha.ReloadImage(); this.blur(); return false;" title="Reload the CAPTCHA code" style="display: inline-block !important;"><img class="LBD_ReloadIcon" id="SampleCaptcha_ReloadIcon" src="http://rsudalihsan.jabarprov.go.id/assets/captcha/LBD_ReloadIcon.gif" alt="Reload the CAPTCHA code"></a><!--
-                --><a class="LBD_SoundLink" id="SampleCaptcha_SoundLink" href="http://rsudalihsan.jabarprov.go.id/botdetect/captchahandler/index?get=sound&amp;c=samplecaptcha&amp;t=7966c8e74c9e6cecd69596321c436381" onclick="SampleCaptcha.PlaySound(); this.blur(); return false;" title="Speak the CAPTCHA code"><img class="LBD_SoundIcon" id="SampleCaptcha_SoundIcon" src="http://rsudalihsan.jabarprov.go.id/assets/captcha/LBD_SoundIcon.gif" alt="Speak the CAPTCHA code"></a><!--
-            --><div class="LBD_Placeholder" id="SampleCaptcha_AudioPlaceholder">&nbsp;</div><!--
-                --></div>
-    <script src="http://rsudalihsan.jabarprov.go.id/assets/captcha/LBD_Scripts.js" type="text/javascript"></script>
-    <script type="text/javascript">//<![CDATA[
-      BotDetect.Init('SampleCaptcha', '7966c8e74c9e6cecd69596321c436381', 'CaptchaCode', true, true, true, true, 1200, 7200, 0);
-    //]]></script>
-    <input type="hidden" name="LBD_VCID_SampleCaptcha" id="LBD_VCID_SampleCaptcha" value="7966c8e74c9e6cecd69596321c436381">
-            </div>
-                        <input type="text" class="form-control" required="" name="CaptchaCode" id="CaptchaCode" style="text-transform: uppercase;">  
-                         </div>
-                        <br>
+
                     <div class="text-xs-center">
-                      
+
                 <input type="submit" name="button" id="button" value="Kirim" class="btn btn-primary">
                     </div>
-                    </form>         
+                    </form>
                 </div>
             </div>
             <!--/Form with header-->
         </div>
-        <!--/First column-->           
+        <!--/First column-->
         </div>
     </div>
             </div>
         </div>
         <!--/Second column-->
     </div>
-  </div>          
+  </div>
             </div>
         </div>
     </section>
-    
+
     <!-- Blog Section End -->
 
     <br><br><br>

@@ -75,7 +75,7 @@
                 <div class="row">
 			<div id="needhelp" class="col">
 			<div class="row">
-                
+
                 <div class="col-md-4">
                     <div class="single-classes">
                         <a href="https://wa.me/6283824212387">
@@ -87,7 +87,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-md-4">
                     <div class="single-classes">
                         <a href="https://mail.google.com/mail/u/0/#inbox">
@@ -108,7 +108,7 @@
                         <div class="text">
                              <p>sephiyanisyaa<br></p>
                                         </div>
-                
+
             </div>
 
         </div>
