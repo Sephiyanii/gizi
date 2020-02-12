@@ -62,8 +62,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="hero-item">
-                        <span class="tickler-text">Who we are</span>
-                        <h1>About us</h1>
+                        <span class="tickler-text">WELCOME</span>
+                        <h1>Contact Me</h1>
                     </div>
                 </div>
             </div>
@@ -75,67 +75,49 @@
     <section class="about-us spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="about-lt">
-                        <div class="section-title">
-                            <span>Your inner Chi</span>
-                            <h2>The very heart of yoga </h2>
-                        </div>
-                        <p>Aenean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti. Donec congue vel justo eget malesuada. enean quis velit pulvinar, pellentesque neque vel, laoreet orci. Suspendisse potenti. Donec congue vel justo eget malesuada. In arcu justo, sagittis consequat pulvinar quis, pretium quis massa. Vestibulum nec nibh eu nisi rutrum iaculis. Pellentesque placerat sit amet leo in vestibulum. Suspendisse quam neque, rutrum vel scelerisque</p>
-                        <a href="#" class="primary-btn">Read More</a>
+                <div class="row">
+			<div id="needhelp" class="col">
+			<div class="row">
+                <div class="col-md-4">
+                    <div class="single-classes">
+                        <a href="https://wa.me/6283824212387">
+                        <img src="{{ asset('assets/frontend/yogastudio/img/pon.png')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
+                        <br><br>
+                        <h3 class="text-danger">Telephone</h3>
+                        <div class="text">
+                        <p>cek whatsapp</a></p>
+                                        </div>
                     </div>
                 </div>
-                <div class="col-lg-4 offset-lg-1">
-                    <div class="about-img">
-                        <img src="{{asset('assets/frontend/yogastudio/img/about-rt.png')}}" alt="">
+                <div class="col-md-4">
+                    <div class="single-classes">
+                        <a href="https://mail.google.com/mail/u/0/#inbox">
+                        <img src="{{ asset('assets/frontend/yogastudio/img/mail.png')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
+                   <br><br>
+                        <h3 class="text-danger">Email</h3>
+                        <div class="text">
+                        <p>sephiyanigabriela@mail.com<br></p>
+                                        </div>
                     </div>
                 </div>
+                 <div class="col-md-4">
+                    <div class="single-classes">
+                    <a href="https://www.instagram.com/sephiyanisyaa/">
+                        <img src="{{ asset('assets/frontend/yogastudio/img/ig.png')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
+                   <br><br>
+                        <h3 class="text-danger">Instagram</h3>
+                        <div class="text">
+                             <p>sephiyanisyaa<br></p>
+                                        </div>
+                
             </div>
-        </div>
-    </section>
-    <!-- About Us section End -->
 
-
-    <!-- About Counter Begin -->
-    <div class="about-counter set-bg spad" data-setbg="{{asset('assets/frontend/yogastudio/img/counter-bg.jpg')}}">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 text-center">
-                    <div class="single-counter">
-                        <i class="flaticon-001-meditation"></i>
-                        <span class="counter-num counter">325</span>
-                        <span>Active members</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 text-center">
-                    <div class="single-counter">
-                        <i class="flaticon-011-hamsa"></i>
-                        <span class="counter-num counter">7</span>
-                        <span>Instructors</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 text-center">
-                    <div class="single-counter">
-                        <i class="flaticon-010-chakra"></i>
-                        <span class="counter-num counter">49</span>
-                        <strong>k</strong>
-                        <span>Ig follovers</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 text-center">
-                    <div class="single-counter">
-                        <i class="flaticon-009-yoga-1"></i>
-                        <span class="counter-num counter">15</span>
-                        <span>Awards won</span>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
     <!-- About Counter End -->
 
     <!-- About Team Section Begin -->
-    <section class="about-team spad">
+    {{-- <section class="about-team spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -181,11 +163,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- About Team Section End -->
     
     <!-- About Call To Action Begin -->
-    <section class="about-callto-action set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/about-callto-bg.jpg')}}">
+    {{-- <section class="about-callto-action set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/about-callto-bg.jpg')}}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -197,11 +179,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- About Call To Action End -->
 
     <!-- Footer Section Begin -->
-    <footer class="footer-section set-bg" data-setbg="{{asset('assets/frontend/yogastudio/img/footer-bg.jpg')}}">
+    <footer class="footer-section set-bg w-100" data-setbg="{{asset('assets/frontend/yogastudio/img/footer-bg.jpg')}}" alt="">
         <div class="container">
             <div class="contact-inner">
                 <!-- <div class="contact-form">
@@ -220,7 +202,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="footer-text">
-                            <a href="./home.html" class="logo"><img src="{{asset('assets/frontend/yogastudio/img/hero-slider/image.png')}}" alt=""></a>
+                            <a href="./home.html" class="logo"><img src="{{asset('assets/frontend/yogastudio/img/hero-slider/image.png')}}" width="100px"></a>
                             <p>“Gizi seimbang sangat penting bagi ibu karena ibu akan memproduksi ASI sebagai makanan satu-satunya bayi hingga usia enam bulan,”.</p>
                             <ul>
                                 <li><a href="https://www.instagram.com/sephiyanisyaa/"><i class="fa fa-instagram"></i>OnInsta Sephiyanisyaa</a></li>

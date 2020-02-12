@@ -169,22 +169,8 @@
 
 
     <!-- Footer Section Begin -->
-    <footer class="footer-section set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/footer-bg.jpg')}}">
+    <footer class="footer-section set-bg " data-setbg="{{ asset('assets/frontend/yogastudio/img/footer-bg.jpg')}}">
         <div class="container">
-            {{-- <div class="contact-inner">
-                <div class="contact-form">
-                    <div class="section-title">
-                        <span>Hallo</span>
-                        <h2>Contact us</h2>
-                    </div>
-                    <form action="#">
-                        <input type="text" placeholder="Name">
-                        <input type="email" placeholder="Mail">
-                        <input type="text" placeholder="Subject">
-                        <textarea placeholder="Message"></textarea>
-                        <button type="submit" class="submit-btn">Send</button>
-                    </form>
-                </div> --}}
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="footer-text">

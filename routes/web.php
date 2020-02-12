@@ -64,8 +64,9 @@ Route::get('/gizi', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/bidan','bidanController@index');
-// Route::group(['prefix'=>'backend', 'middleware'=>['auth']], function(){
-//     Route::resource('/admin','backendController');
-// });
+Route::group(['prefix'=>'backend', 'middleware'=>['auth']], function(){
+    Route::resource('/admin','backendController');
+    Route::resource('/Konsul','KonsultasiController');
+
+});
 

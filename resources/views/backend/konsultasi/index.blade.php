@@ -340,6 +340,53 @@
 
           <!-- Content Row -->
           <div class="row">
+
+            <div class = "container">
+        <h4>Data kategori</h4>
+        <a href="{{ route ('Konsul.create') }}" class="btn btn-outline-info">Tambah Data</a>
+        <p></p>
+
+                            <div class="table-responsive">
+                                <table class="table table-hover table-dark  ">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">No</th>
+                                        <th scope="col">Nama </th>
+                                        <th scope="col">Email</th>
+                                        <th scope="col">Pesan</th>
+                                        <th colspan="2" class="text-center">Aksi</th>
+                                    </tr>
+                                    </thead>
+                                    @php $no = 1; @endphp
+                                    @foreach($konsul as $data)
+                                    <tr>
+                                        <td>{{ $no++ }}</td>
+                                        <td>{{ $data->nama }}</td>
+                                        <td>{{ $data->email }}</td>
+                                        <td>{{ $data->pesan }}</td>
+                                        <td>
+                                            <a href="{{ route('Konsul.edit',$data->id) }}"
+                                            class="btn btn-outline-info">Edit Data</a>
+                                        </td>
+
+                                        <td>
+                                            <form action="{{ route('Konsul.destroy',$data->id) }}" method="post">
+                                            {{csrf_field()}}
+                                                <input type="hidden" name="_method" value="DELETE">
+                                                <button class="btn btn-outline-info" type="submit">
+                                                    Hapus Data
+                                                </button>
+                                            </form>
+                                        </td>
+                                    </tr>
+                                    @endforeach
+                                </table>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
           </div>
 
 
