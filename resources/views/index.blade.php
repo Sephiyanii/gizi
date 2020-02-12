@@ -37,8 +37,7 @@
                         <nav class="inner-main-navbar mobile-menu">
                             <ul>
                                <li><a href="./blogg"><i class="fa fa-home" >    Home</i></a></li>
-                                <li><a href="./tanya"><i class="fa fa-comments"></i>    Forum</a></li>
-                                <li><a href="./about"><i class="fa fa-clock-o"></i>     About Us</a></li>
+                                <li><a href="./about"><i class="fa fa-clock-o"></i> Contact Me</a></li>
                                 <li><a href="./contact"><i class="fa fa-envelope-o"></i>   Konsultasi</a></li>
                             </ul>
                         </nav>
