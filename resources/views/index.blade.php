@@ -108,7 +108,7 @@
                  <div class="col-md-4">
                     <div class="single-classes">
                         <strong>Konsultasi</strong><br><br>
-                        <a href="./contact">
+                        <a href="./konsul">
                         <img src="http://rsudalihsan.jabarprov.go.id/themes/default//images/pengaduan.png" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
 
             </div>
