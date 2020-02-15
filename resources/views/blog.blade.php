@@ -102,18 +102,16 @@
                 </div>
                  <div class="col-md-4">
                     <div class="single-classes">
-                        <strong>Konsultasi</strong><br><br>
+                        <strong>Kebutuhan Gizi </strong><br><br>
                         <a href="./contact">
-                        <img src="http://rsudalihsan.jabarprov.go.id/themes/default//images/pengaduan.png" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
+                        <img src="{{ asset('assets/frontend/yogastudio/img/pir.jpg')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
                 
             </div>
                     </div>
                 </div>
-                <br><br><br>
-                 <div class="col-md-12">
-                  <h2 class="text-center">Pakar Gizi Ibu Menyusui</h2>
-                </div> 
-                              </div>
+               
+                </div>
+                </div>
             
                 </div>
             </div>

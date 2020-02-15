@@ -36,7 +36,7 @@
                     <div class="main-menu">
                         <nav class="inner-main-navbar mobile-menu">
                             <ul>
-                               <li><a href="./blogg"><i class="fa fa-home" >    Home</i></a></li>
+                               <li><a href="./"><i class="fa fa-home" >    Home</i></a></li>
                                 <li><a href="./about"><i class="fa fa-clock-o"></i> Contact Me</a></li>
                                 <li><a href="./konsul"><i class="fa fa-envelope-o"></i>   Konsultasi</a></li>
                             </ul>
@@ -93,9 +93,9 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="single-classes">
-                          <strong>Category</strong><br><br>
+                          <strong>Pakar Gizi Ibu Hamil</strong><br><br>
                         <a href="./blog">
-                        <img src="{{ asset('assets/frontend/yogastudio/img/cat.png')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
+                        <img src="{{ asset('assets/frontend/yogastudio/img/m.png')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -105,11 +105,13 @@
                         <img src="{{ asset('assets/frontend/yogastudio/img/ico.png')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
                     </div>
                 </div>
-                 <div class="col-md-4">
+                
+                    <br><br>
+                    <div class="col-md-4">
                     <div class="single-classes">
-                        <strong>Konsultasi</strong><br><br>
-                        <a href="./konsul">
-                        <img src="http://rsudalihsan.jabarprov.go.id/themes/default//images/pengaduan.png" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
+                        <strong>Pakar Gizi Ibu Menyusui</strong><br><br>
+                        <a href="./kar">
+                        <img src="{{ asset('assets/frontend/yogastudio/img/n.png')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
 
             </div>
 

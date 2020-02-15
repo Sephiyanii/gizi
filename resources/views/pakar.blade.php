@@ -36,16 +36,15 @@
                     <div class="main-menu">
                         <div class="logo">
                             <a href="./index.html">
-
+                                <img src="{{ asset('assets/frontend/yogastudio/img/logo.png')}}" alt="">
                             </a>
                         </div>
                         <nav class="inner-main-navbar mobile-menu">
                             <ul>
-                            <li><a href="./blogg"><i class="fa fa-home" >    Home</i></a></li>
-                                <li><a href="./tanya"><i class="fa fa-comments"></i>    Forum</a></li>
-                                <li><a href="./about"><i class="fa fa-clock-o"></i>     About Us</a></li>
-                                <li><a href="./konsul"><i class="fa fa-envelope-o"></i>   Konsultasi</a></li>
-                            </ul>
+                                <li><a href="./"><i class="fa fa-home"></i>Home</a></li>
+                                 <li><a href="./tanya"><i class="fa fa-comments"></i>Forum</a></li>
+                                 <li><a href="./about"><i class="fa fa-clock-o"></i>About Us</a></li>
+                                <li><a href="./contact.html"><i class="fa fa-envelope-o"></i>Contact</a></li>
                             </ul>
                         </nav>
                         <div id="mobile-menu-wrap"></div>
@@ -61,8 +60,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="hero-item">
-                        {{-- <span class="tickler-text">WELCOME</span> --}}
-                        <h1 class="text-align">Artikel</h1>
+                        <span class="tickler-text">WELCOME</span>
+                        <h1>Category</h1>
                     </div>
                 </div>
             </div>
@@ -70,79 +69,60 @@
     </section>
     <!-- Hero Single Section End -->
     <!-- Blog Section Begin -->
-    <section class="">
-        <br><br>
-        <div class="section-row">
-                        <h3 class="text-center">Tulisan Terbaru</h3>
-                        <br><br>
-                        <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig">
-
-                        <div class="post post-widget">
-                            <a class="post-img" href="/ar"><img src="{{ asset('assets/frontend/yogastudio/img/b.jpg') }}" alt=""></a>
-                            <div class="post-body">
-                                <h5 class="post-title"><a href="/ar">Keamanan Obat Pada Ibu Hamil</a></h5>
-                            </div>
-                        </div>
+    <section class="blog-section spad">
+        <div class="container">
+            <div class="row" >
+                <div class="col-lg-8">
+                    <div class="blog-items">
+                        <div class="single-blog">
+                            <div class="blog-pic">
+                                <div class="col-md-12">
+                                    
+                  <h2 class="text-center">Pakar Gizi Ibu Menyusui</h2>
+                </div> 
+                <br><br>
+                <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single-classes">
+                          <strong>Nutrisi Bayi</strong><br><br>
+                        <a href="./blog">
+                        <img src="{{ asset('assets/frontend/yogastudio/img/be.png')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
                     </div>
-
-                        <div class="post post-widget">
-                            <a class="post-img" href="blog-post.html"><img src="{{ asset('assets/frontend/yogastudio/img/c.jpg') }}" alt=""></a>
-                            <div class="post-body">
-                                <h5 class="post-title"><a href="blog-post.html">Menyusui Anak Aktifitas Mulia</a></h5>
-                            </div>
-                        </div>
-                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig">
-                        <div class="post post-widget">
-                            <a class="post-img" href="blog-post.html"><img src="{{ asset('assets/frontend/yogastudio/img/d.jpg') }}" alt=""></a>
-                            <div class="post-body">
-                                <h5 class="post-title"><a href="/ar">Keamanan Obat Pada Ibu Menyusui</a></h5>
-                            </div>
-                        </div>
-
+                </div>
+                <div class="col-md-4">
+                    <div class="single-classes">
+                         <strong>Kesehatan Bayi</strong><br><br>
+                        <a href="./contact">
+                        <img src="{{ asset('assets/frontend/yogastudio/img/si.png')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
+                    </div>
+                </div>
+                 <div class="col-md-4">
+                    <div class="single-classes">
+                        <strong>Kebutuhan Gizi </strong><br><br>
+                        <a href="./contact">
+                        <img src="{{ asset('assets/frontend/yogastudio/img/pir.jpg')}}" style="width: 160px; height: 152px;" alt="Pengaduan"></a>
+                
+            </div>
+                    </div>
+                </div>
+               
+                </div>
+                </div>
+            
+                </div>
             </div>
         </div>
-        </div>
-        </div>
     </section>
-    <br><br>
 
-    <section class="">
-        <br><br>
-        <div class="section-row">
-                        <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig">
-
-                        <div class="post post-widget">
-                            <a class="post-img" href="blog-post.html"><img src="{{ asset('assets/frontend/yogastudio/img/e.jpg') }}" alt=""></a>
-                            <div class="post-body">
-                                <h5 class="post-title"><a href="/ar">Manfaat Pijat Untuk Bayi</a></h5>
-                            </div>
-                        </div>
-                    </div>
-
-                        <div class="post post-widget">
-                            <a class="post-img" href="blog-post.html"><img src="{{ asset('assets/frontend/yogastudio/img/f.jpg') }}" alt=""></a>
-                            <div class="post-body">
-                                <h5 class="post-title"><a href="blog-post.html">Asi Diberikan Secara Esklusif</a></h5>
-                            </div>
-                        </div>
-                    <div class="col-12 col-sm-6 col-md-4 single_gallery_item women wow fadeInUpBig">
-                        <div class="post post-widget">
-                            <a class="post-img" href="blog-post.html"><img src="{{ asset('assets/frontend/yogastudio/img/g.jpg') }}" alt=""></a>
-                            <div class="post-body">
-                                <h5 class="post-title"><a href="/ar">Nyeri dada,Apakah Sakit Jantung?</a></h5>
-                            </div>
-                        </div>
-
-            </div>
-        </div>
-        </div>
-        </div>
-    </section>
+    
     <!-- Blog Section End -->
+
+
     <!-- Footer Section Begin -->
     <footer class="footer-section set-bg" data-setbg="{{ asset('assets/frontend/yogastudio/img/footer-bg.jpg')}}">
         <div class="container">
@@ -164,10 +144,10 @@
                     <div class="col-lg-6">
                         <div class="footer-text">
                             <a href="./home.html" class="logo"><img src="{{ asset('assets/frontend/yogastudio/img/hero-slider/image.png')}}" alt="" width="120px"></a>
-                            <p>“Gizi seimbang sangat penting bagi ibu karena ibu akan memproduksi ASI sebagai makanan satu-satunya bayi hingga usia enam bulan,”.</p>
+                           <p>“Gizi seimbang sangat penting bagi ibu karena ibu akan memproduksi ASI sebagai makanan satu-satunya bayi hingga usia enam bulan,” </p>
                             <ul>
-                                <li><a href="https://www.instagram.com/sephiyanisyaa/"><i class="fa fa-instagram"></i> OnInsta : Sephiyanisyaa</a></li>
-
+                                <li><a href="#"><i class="fa fa-instagram"></i> OnInsta Sephiyanisyaa</a></li>
+                                <li><a href="#"><i class="fa fa-facebook"></i> OnFace Sephiyanisya</a></li>
                             </ul>
                             <div class="copyright text-white">
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->

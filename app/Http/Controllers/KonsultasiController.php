@@ -7,6 +7,11 @@ use App\Konsultasi;
 
 class KonsultasiController extends Controller
 {
+    public function frontend()
+    {
+        $konsul = Konsultasi::all();
+        return view('contact', compact('konsul'));
+    }
     /**
      * Display a listing of the resource.
      *

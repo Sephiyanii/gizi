@@ -94,47 +94,20 @@
                 <div class="card-block">
                     <!--Header-->
                        <h3><i class="fa fa-envelope"></i> Pertanyaan Anda ?</h3>
-                <form action="http://rsudalihsan.jabarprov.go.id/tanyajawab" class="form-vertical" method="post" accept-charset="utf-8">
-                    <input type="hidden" name="ci_csrf_token" value="53207c1cda4a8bf3e280563ca058e472" style="display:none;">
-                    <br><br>
+                <form action="{{ route('Konsul.store') }}" method="post">
+                    @csrf
                         <div class="form-group">
-                            <label for="form3">Nama Lengkap</label>
-                         <input type="text" class="form-control" required="" name="pengirim" id="pengirim" value="">
-                             </div>
-                     <div class="form-group">
-                        <label for="form2">Email</label>
-             <input type="email" class="form-control" required="" name="email" id="email" value="">
+                    <label for="">Nama</label>
+                    <input class="form-control" type="text" name="nama">
                 </div>
-                     <div class="form-group">
-                            <label for="sel1">Keluhan Ibu Hamil</label>
-                        <select class="form-control" id="keluhan">
-    	                    <option>-</option>
-                            <option>Pendarahan</option>
-                            <option>Tekanan Darah Tinggi</option>
-                                <option>Nyeri Punggung Bagian Bawah</option>
-                                <option>Kesulitan Bernafas</option>
-                                <option>Kontraksi</option>
-                                <option>Kram Kaki</option>
-    </select>
-  </div>
-
-             <div class="form-group">
-                            <label for="sel1">Keluhan Ibu Menyusui</label>
-                        <select class="form-control" id="keluhan">
-    	                    <option>-</option>
-                            <option>Saluran Sumbatan ASI</option>
-                            <option>Gastroenteritis (radang saluran cerna)</option>
-                                <option>Pertumbuhan Terhambat</option>
-                                <option>Hernia Pada Bayi</option>
-                                <option>Kontraksi</option>
-                                <option>Kram Kaki</option>
-    </select>
-  </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="form2">Pesan</label>
-                <textarea name="komen" required="" class="form-control" rows="6"></textarea>
-                        </div>
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input class="form-control" type="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="">Pesan</label>
+                    <input class="form-control" type="text" name="pesan">
+                </div>
 
                     <div class="text-xs-center">
 

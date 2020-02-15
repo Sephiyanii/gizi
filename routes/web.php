@@ -35,10 +35,6 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/konsul', function () {
-    return view('contact');
-});
-
 Route::get('/about', function () {
     return view('about');
 });
@@ -59,6 +55,10 @@ Route::get('/ar', function () {
     return view('ar');
 });
 
+Route::get('/kar', function () {
+    return view('pakar');
+});
+
 // Route::get('/tanya', function () {
 //     return view('tanya');                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ');
 // });
@@ -68,9 +68,10 @@ Route::get('/ar', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
 Route::group(['prefix'=>'backend', 'middleware'=>['auth']], function(){
     Route::resource('/admin','backendController');
     Route::resource('/Konsul','KonsultasiController');
-
 });
 
+Route::get('/Konsul','KonsultasiController@frontend');
