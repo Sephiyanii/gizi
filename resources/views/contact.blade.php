@@ -110,14 +110,15 @@
                 </div>
 
                     <div class="text-xs-center">
-
                 <input type="submit" name="button" id="button" value="Kirim" class="btn btn-primary">
+
                     </div>
                     </form>
+
                 </div>
             </div>
 
-            
+
             <!--/Form with header-->
         </div>
         <!--/First column-->

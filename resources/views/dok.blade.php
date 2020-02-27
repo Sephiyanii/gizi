@@ -60,7 +60,7 @@
                 <div class="col-lg-12 text-center">
                     <div class="hero-item">
                         <span class="tickler-text">WELCOME</span>
-                        <h1>Contact Me</h1>
+                        <h1>Tanya Dokter</h1>
                     </div>
                 </div>
             </div>
@@ -76,34 +76,30 @@
 			<div id="needhelp" class="col">
 			<div class="row">
 
-                <div class="col-md-5">
-                    <div class="single-classes">
-                        <a href="https://wa.me/6283824212387">
-                        <img src="{{ asset('assets/frontend/yogastudio/img/pon.png')}}" style="width: 100px; height: 100px;" alt="Pengaduan"></a>
-                        <br><br>
-                        <h3 class="text-danger">Telephone</h3>
-
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="single-classes">
-                        <a href="https://mail.google.com/mail/u/0/#inbox">
-                        <img src="{{ asset('assets/frontend/yogastudio/img/mail.png')}}" style="width: 100px; height: 100px;" alt="Pengaduan"></a>
-                   <br><br>
-                        <h3 class="text-danger">Email</h3>
-                    </div>
-                </div>
-                 <div class="col-md-6">
-                    <div class="single-classes">
-                    <a href="https://www.instagram.com/sephiyanisyaa/">
-                        <img src="{{ asset('assets/frontend/yogastudio/img/ig.png')}}" style="width: 100px; height: 100px;" alt="Pengaduan"></a>
-                   <br><br>
-                        <h3 class="text-danger">Instagram</h3>
+               <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+          <img src="{{asset('assets/frontend/yogastudio/img/icon.jpg')}}" class="card-img-top" alt="" style="width:100px">
+        <h5 class="card-title">Spesialis Kandungan</h5>
+        <p class="card-text">Tanyakan Kandungan kamu Disiini.</p>
+        <a href="/Konsul" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
-            </div>
-
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <img src="{{asset('assets/frontend/yogastudio/img/anak.png')}}" class="card-img-top" alt="" style="width:100px">
+        <h5 class="card-title">Spesialis Anak</h5>
+        <p class="card-text">Tanyakan Gizi Anak Kamu Disini.</p>
+        <a href="Konsul" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
 
         </div>
     </div>
@@ -161,12 +157,3 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Sephi
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-

@@ -336,19 +336,18 @@
             <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
           </div>
-          
+
 
           <!-- Content Row -->
           <div class="row">
 
             <div class = "container">
-        <h4>Data kategori</h4>
-        <a href="{{ route ('Konsul.create') }}" class="btn btn-outline-info">Tambah Data</a>
+        <h4 class="text-center">Data Konsul</h4>
         <p></p>
 
                             <div class="table-responsive">
-                                <table class="table table-hover table-dark  ">
-                                <thead class="thead-dark">
+                                <table class="table table-stripe ">
+                                <thead class="thead table table-stripe">
                                     <tr>
                                         <th scope="col">No</th>
                                         <th scope="col">Nama </th>
@@ -362,18 +361,21 @@
                                     <tr>
                                         <td>{{ $no++ }}</td>
                                         <td>{{ $data->nama }}</td>
-                                        <td>{{ $data->email }}</td>
-                                        <td>{{ $data->pesan }}</td>
-                                        <td>
-                                            <a href="{{ route('Konsul.edit',$data->id) }}"
-                                            class="btn btn-outline-info">Edit Data</a>
-                                        </td>
+                                    <a href=""><td>{{ $data->email}}</td></a>
 
+                                        <td>{{ $data->pesan }}</td>
+
+                                        <td>
+                                       <a href="https://mail.google.com/mail/u/0/#inbox"><button class="btn btn-dark" type="submit">GoGmail</button></a>
+                                        </td>
+                                        <td>
+                                       <button class="btn btn-primary" type="submit">Detail</button>
+                                        </td>
                                         <td>
                                             <form action="{{ route('Konsul.destroy',$data->id) }}" method="post">
                                             {{csrf_field()}}
                                                 <input type="hidden" name="_method" value="DELETE">
-                                                <button class="btn btn-outline-info" type="submit">
+                                                <button class="btn btn-dark" type="submit">
                                                     Hapus Data
                                                 </button>
                                             </form>

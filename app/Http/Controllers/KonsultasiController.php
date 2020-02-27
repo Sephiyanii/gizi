@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Konsultasi;
+use Session;
 
 class KonsultasiController extends Controller
 {
@@ -51,7 +52,7 @@ class KonsultasiController extends Controller
             "level" => "success",
             "message" => "Berhasil menyimpan <b>$konsul->nama</b>"
         ]);
-        return redirect()->route('konsul.index');
+        return redirect()->route('Konsul.index');
     }
 
     /**
@@ -96,6 +97,11 @@ class KonsultasiController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $konsul = Konsultasi::findOrFail($id)->delete();
+        Session::flash("flash_notification", [
+            "level" => "success",
+            "message" => "Data berhasil dihapus"
+        ]);
+        return redirect()->route('Konsul.index');
     }
 }
